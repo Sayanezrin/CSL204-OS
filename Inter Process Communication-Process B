@@ -13,7 +13,6 @@ int main()
         shmid=shmget((key_t)1223,1026,0666);
         printf("key of shared memory is %d \n",shmid);
         shared_memory=shmat(shmid,NULL,0);
-        process attached at %p,\n",shared_memory);
         printf("Data read from shared memory is %n,(char*)shared_memory); 
          return 0;
 
