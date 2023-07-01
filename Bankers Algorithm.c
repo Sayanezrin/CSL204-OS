@@ -1,3 +1,4 @@
+//bankers algorithm
 #include<stdio.h>
 int n,r;
 int max[100][100],alloc[100][100],need[100][100],avail[10];
