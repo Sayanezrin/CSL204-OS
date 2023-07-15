@@ -26,3 +26,22 @@ void main()
 //Display
 printf("BLOCK\tSIZE\n");
 for(i=0;i<n_b;i++)
+  printf("%d\t%dn",i+1,b[i])
+  printf("\n\nPROCESS\tSIZE\n");
+for(i=0;i<n_p;i++)
+  printf("%d\t%d\n",i+1,p[i]);
+
+//sorting the memory block
+for(i=0;i<n_b-1;i++)
+{
+  for(j=0;j<n_b-i-1;j++)
+  {
+    if(b[bsort[j]]>b[sort[j+1]])
+    {
+      temp=bsort[j];
+      bsort[j]=bsort[j+1];
+      bsort[j+1]=temp;
+    }
+  }
+}
+
