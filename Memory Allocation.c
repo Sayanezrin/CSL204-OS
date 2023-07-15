@@ -44,4 +44,30 @@ for(i=0;i<n_b-1;i++)
     }
   }
 }
+printf("\n\nMENU\n1.FIRST FIT\n2.WORST FIT\n3.BEST FIT\nSELECT CHOICE:");
+scanf("%d",&ch);
+switch(ch)
+{
+case 1://FIRST FIT
+for(i=0;i<n_p;i++)
+{
+  flag=1;
+  for(j=0;j<n_b;j++)
+  {  
+    if(p[i]<rem_b[j])
+    {
+      rem_b[j]=0;
+      b_alloc[j]=i+1;
+      flag=0;
+      break;
+    }
+  }
+  if(flag==1)
+  break;
+}
+break;
+
+case 2:// WORST FIT
+
+
 
