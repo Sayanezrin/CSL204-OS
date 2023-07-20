@@ -69,6 +69,6 @@ for(i=0;i<n_p;i++)
 break;
 
 case 2:// WORST FIT
-
+{}
 
 
