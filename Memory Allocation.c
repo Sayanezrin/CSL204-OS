@@ -104,4 +104,9 @@ for(i=0;i<n_p;i++)
    break;
 }break;
 
+default:
+printf("\nINVALID CHOICE");
+exit(0);
+};
+//DISPLAY
 
