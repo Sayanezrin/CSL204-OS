@@ -109,4 +109,5 @@ printf("\nINVALID CHOICE");
 exit(0);
 };
 //DISPLAY
+printf("\n\nBLOCK\tSIZE\tALLOCATED PROCESSESS")
 
