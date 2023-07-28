@@ -69,6 +69,39 @@ for(i=0;i<n_p;i++)
 break;
 
 case 2:// WORST FIT
-{}
+for(i=0;i<n_p;i++)
+ {
+   flag=1;
+  for(j=n_b-1;j--)
+   {
+    if(p[i]<=rem_b[sort[j]])
+    {
+     rem_b[bsort[j]]=0;
+     b_alloc[bsort[j]]=i+1;
+     flag=0;
+     break;
+    }
+   }
+  if(flag==1)
+   break;
+ }break;
+
+case 3://BEST FIT
+for(i=0;i<n_p;i++)
+{
+ flag=1;
+ fpr(j=0;j<n_b;j++)
+  {
+  if(p[i]<rem_b[bsort[j]])
+  {
+    rem_b[bsort[j]]=0;
+     b_alloc[bsort[j]]=i+1;
+     flag=0;
+     break;
+  }
+  }
+   if(flag==1)
+   break;
+}break;
 
 
