@@ -109,5 +109,31 @@ printf("\nINVALID CHOICE");
 exit(0);
 };
 //DISPLAY
-printf("\n\nBLOCK\tSIZE\tALLOCATED PROCESSESS")
-
+printf("\n\nBLOCK\tSIZE\tALLOCATED PROCESSESS");
+for(i=0;i<n_b;j++)
+{
+ printf("%d\t%d\t",i+1,b[i]);
+  if(b_alloc[i]>-1)
+  {
+     printf("%d\n",b_alloc[i]);
+  }
+  else
+   printf("-\n");
+}
+printf("\nALLOCATED PROCESS NUMBERS=");
+for(i=0;i<n_p;i++)
+{
+ flag=0;
+ for(j=0;j<n_b;j++)
+  {
+   if(b_alloc[j]==i+1)
+   {
+    flag=1;
+    break;
+   }
+  }
+ if(flag==0)
+  printf("%d",i+1);
+}
+printf("\n\n");
+}
