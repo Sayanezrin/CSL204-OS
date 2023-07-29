@@ -11,7 +11,7 @@ void main()
   printf("enter the memory block sizes:");
   for(i=0;i<n_b;i++)
     {
-      scanf("%d",&b[i];
+      scanf("%d",&b[i]);
       bsort[i]=i;
       rem_b[i]=b[i];
       b_alloc[i]=-1;
@@ -27,7 +27,7 @@ void main()
 //Display
 printf("BLOCK\tSIZE\n");
 for(i=0;i<n_b;i++)
-  printf("%d\t%dn",i+1,b[i])
+  printf("%d\t%dn",i+1,b[i]);
   printf("\n\nPROCESS\tSIZE\n");
 for(i=0;i<n_p;i++)
   printf("%d\t%d\n",i+1,p[i]);
