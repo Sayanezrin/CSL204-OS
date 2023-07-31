@@ -24,7 +24,7 @@ void main()
       scanf("%d",&p[i]);
     }
 }
-//Display
+  //Display
 printf("BLOCK\tSIZE\n");
 for(i=0;i<n_b;i++)
   printf("%d\t%dn",i+1,b[i]);
@@ -108,7 +108,7 @@ default:
 printf("\nINVALID CHOICE");
 exit(0);
 };
-//DISPLAY
+  //DISPLAY
 printf("\n\nBLOCK\tSIZE\tALLOCATED PROCESSESS");
 for(i=0;i<n_b;j++)
 {
