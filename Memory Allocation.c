@@ -132,6 +132,7 @@ for(i=0;i<n_p;i++)
     break;
    }
   }
+ 
  if(flag==0)
   printf("%d",i+1);
 }
