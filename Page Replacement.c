@@ -1,3 +1,4 @@
+//page
 #include<stdio.h>
 int n,nf;
 int in[100];
