@@ -1,3 +1,4 @@
+//round robin
 #include <stdio.h>
 #include <string.h>
 int q[100],front=-1,rear=-1;
